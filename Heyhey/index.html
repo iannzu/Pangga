@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Heleia, Frances ko   </title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body><div class="hearts-container"></div><div class="stars-container"></div>
+
+<!-- ================= PASSWORD SCREEN ================= -->
+
+<div id="passwordPage" class="page active centered">
+
+    <div class="passwordBox">
+
+        <h1>Prototype</h1>
+
+        <p>Enter the magic word</p>
+
+        <!-- CHANGE PASSWORD HERE -->
+        <input type="password" id="password">
+
+        <button onclick="checkPassword()">Enter</button>
+
+        <p id="wrongPassword"></p>
+
+    </div>
+
+</div>
+
+<!-- ================= PAGE 1 ================= -->
+
+<div id="page1" class="page centered">
+
+    <div class="overlay">
+        <h1 class="anniversary-title">Happy Anniversary❤️</h1>
+        <h2>Hello my Frances:></h2>
+
+        <p>Is this you? If yes click continue.</p>
+        <p>My favorite pics of you btw.</p>
+
+        <div class="gallery">
+
+            <!-- CHANGE THESE IMAGES -->
+
+            <img src="images/photo1.jpg">
+
+            <img src="images/photo2.jpg">
+
+            <img src="images/photo3.jpg">
+
+        </div>
+    
+
+        <button onclick="nextPage()">
+            Continue
+        </button>
+
+    </div>
+
+</div>
+
+<!-- ================= PAGE 2 ================= -->
+
+<div id="page2" class="page">
+
+    <div class="top">
+
+        <h2>Time We've Been Together</h2>
+
+        <div id="countdown"></div>
+
+    </div>
+
+    <div class="content">
+
+        <!-- LEFT IMAGES -->
+
+        <div class="side">
+
+            <img src="images/left1.png">
+
+            <img src="images/left2.png">
+
+        </div>
+
+        <!-- LETTER -->
+
+        <div class="letter">
+            <h2>To my Pangga</h2>
+            <p id="loveLetter"></p>
+        </div>
+
+        <!-- RIGHT IMAGES -->
+        <div class="side">
+            <img src="images/right1.jpg">
+            <img src="images/right2.png">
+        </div>
+    </div>
+
+    <div class="buttons">
+    <button onclick="backPage()">
+        Back
+    </button>
+    <button onclick="memoriesPage()">
+        Memories
+    </button>
+
+</div>
+
+</div>
+<!-- ================= PAGE 3 ================= -->
+
+<div id="page3" class="page">
+
+    <h1>Our adventures together</h1>
+
+    <p class="subtitle">
+        Every picture tells a story...
+    </p>
+
+    <div class="memoryContainer">
+
+        <!-- MEMORY 1 -->
+
+        <div class="memoryCard">
+            <img src="images/memory1.png">
+            <h3>Our meet up ata</h3>
+            <p>Hiya hiya pa tayo dito ih.
+            </p>
+
+        </div>
+
+        <!-- MEMORY 2 -->
+
+        <div class="memoryCard">
+
+            <img src="images/memory2.png">
+
+            <h3>Our First Date</h3>
+
+            <p>
+                Ewan if First date to pero puro tayo tawa.
+            </p>
+
+        </div>
+
+        <!-- MEMORY 3 -->
+
+        <div class="memoryCard">
+
+            <img src="images/memory3.png">
+
+            <h3>Favorite Picture of us</h3>
+
+            <p>
+                Eto talaga pinakagusto ko sa atin. Ang cute natin dito.
+                I love our weird little date HAHAHA.
+            </p>
+
+        </div>
+
+        <!-- COPY THIS CARD AS MANY TIMES AS YOU WANT PO-->
+
+        <div class="memoryCard">
+
+    <img src="images/memory4.png">
+
+    <h3>Inge kiss mo</h3>
+
+    <p>
+        Kapal kapal ng mukha ko humingi ng kiss pero paldo ako.
+        Kayod lang sa paghingi ng kiss.
+    </p>
+
+</div>
+
+<div class="memoryCard">
+
+    <img src="images/memory5.png">
+
+    <h3>Payag kaba?</h3>
+
+    <p>
+        Pwetan kita HAHAHAHAH joke cute lang nitong pic kasi sabi ko pwetan kita.
+    </p>
+
+</div>
+
+<div class="memoryCard">
+
+    <img src="images/memory6.jpg">
+
+    <h3>Flower</h3>
+
+    <p>
+        Your favorite are tulips. Wala lang sinend mo sakin to.
+        Parang binibigyan mo na rin ako ng flowers. 
+    </p>
+
+</div>
+
+<div class="memoryCard">
+
+    <img src="images/memory7.jpg">
+
+    <h3>I love you</h3>
+
+    <p>
+        Ang elegante mo dito. Ang ganda ng dress mo. Ang ganda mo talaga.
+        TANGINA SARAP TAINA! Pero baby lahams na lahams kita kahit ano kapa.
+    </p>
+
+</div>
+<div class="memoryCard">
+
+    <img src="images/memory8.jpg">
+
+    <h3>Paborito mong adobo</h3>
+
+    <p>
+        Paborito mong pusa, lagi mo sya binabanggit. Alam kong miss na miss mo na sya
+        Miss kana rin nya pangga, hayaan mo kunin natin sya soon. Para makasama natin.
+    </p>
+
+</div>
+<div class="memoryCard">
+
+    <img src="images/memory9.png">
+
+    <h3>Call Center Agents</h3>
+
+    <p>
+        Gabi hanggang umaga. Gulat ako pumapasok ka papala ng maaga huhuhu.
+        Hindi ko alam talaga if alam ko lang pangga matutulog tayo maaga.
+        mwamwamwama
+    </p>
+
+</div>
+<div class="memoryCard">
+
+    <img src="images/memory10.jpg">
+
+    <h3>Tulog ka dito</h3>
+
+    <p>
+        D masyadong kita pero fully kumot ka dito. Balot na balot ka.
+        Hehehe sana marinig ulit hilik mo. 
+    </p>
+
+</div>
+<div class="memoryCard">
+
+    <img src="images/memory11.jpg">
+
+    <h3>Car lover</h3>
+
+    <p>
+        Isa sa pinaka gusto ko sayo. Cat lover ka katulad ko.
+        Gusto ko magkaroon tayo ng maraming pusa. Tapos gaganyanin mo sila isa isa.
+        Then send mo sakin habang asa work ako.
+    </p>
+
+</div>
+<div class="memoryCard">
+
+    <img src="images/memory12.png">
+
+    <h3>Vidjakol with Travis</h3>
+
+    <p>
+        Hindi kita pero importante kita ka. Sana magkita na kayo ni travis kasama ako.
+        I love you pangga, dagdagan pa natin to para mahaba iiscroll mo. 
+        Tapos basahin mo kapag nalulungkot ka or kapag galit ka sakin hehe.
+    </p>
+
+</div>
+
+    </div>
+
+    <button onclick="letterPage()">
+        Back
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
